@@ -1,10 +1,6 @@
 from flask_sqlalchemy import SQLAlchemy
 
 db = SQLAlchemy()
-database_name = "moviedata"
-database_path = "postgresql://{}/{}".format('localhost:5432', database_name)
-
-
 class Movie(db.Model):
     __tablename__ = 'movies'
 
