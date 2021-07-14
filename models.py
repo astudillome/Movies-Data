@@ -63,4 +63,4 @@ class Actor(db.Model):
         db.session.delete(self)
         db.session.commit()
     
-db.create_all()
+# db.create_all()
