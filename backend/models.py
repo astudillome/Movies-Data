@@ -46,6 +46,8 @@ class Actor(db.Model):
         return {
             'id': self.id,
             'name': self.name,
+            'age': self.age,
+            'gender': self.gender,
             'movies': self.movies
         }
         

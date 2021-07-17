@@ -1,4 +1,7 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
 import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
